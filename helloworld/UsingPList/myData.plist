@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Nilai</key>
+		<array>
+			<string>20</string>
+			<string>10</string>
+		</array>
+		<key>address</key>
+		<string>siwalankerto</string>
+		<key>name</key>
+		<string>big boss</string>
+		<key>id</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>siwal</string>
+		<key>name</key>
+		<string>sinyo</string>
+		<key>id</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>ankerto</string>
+		<key>name</key>
+		<string>sini</string>
+		<key>3</key>
+		<string>3</string>
+	</dict>
+</array>
+</plist>

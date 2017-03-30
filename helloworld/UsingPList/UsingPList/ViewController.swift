@@ -12,7 +12,29 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let path = Bundle.main.path(forResource: "myData", ofType: "plist")
+        if let d = NSArray(contentsOfFile: path!)
+        {
+            var count:Int = 0
+            for data in d{
+               let row = data as! NSDictionary
+                for (k,v) in row {
+                    if k as! String == "Nilai"
+                    {
+                        print ("SCORE:")
+                        for sc in v as! NSArray{
+                            print(sc)
+                        }
+                    }
+                    else {
+                        print ("data ke-\(count) =  \(k) , \(v)")
+                    }
+                    count += 1
+                }
+        }
+            
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
